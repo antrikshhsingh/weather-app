@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+      crossorigin=""
+    ></script>
+
+    <title>Weather App</title>
+  </head>
+
+  <body>
+    <h1>WEATHER APP</h1>
+    <div class="results">
+      <div class="loader active"></div>
+      <h3>City Name : <span id="city-name"></span></h3>
+      <h3>Temperature : <span id="temp"></span></h3>
+      <h3>Max temperature : <span id="temp-max"></span></h3>
+      <h3>Max temperature : <span id="temp-min"></span></h3>
+      <div id="map"></div>
+    </div>
+
+    <!-- <label for="First numer" style="font-size: 20px">First Number :</label>
+    <input type="text" class="input" id="firstNumber" />
+    <label for="" style="font-size: 20px">Second number :</label>
+    <input type="text" class="input" id="secondNumber" />
+
+    <button>Add number</button> -->
+    <!-- <br />
+    <br />
+    <div class="wrapper">
+      <h2>Result:</h2>
+      <span class="result_box"></span>
+    </div> -->
+    <script src="script.js"></script>
+  </body>
+</html>
